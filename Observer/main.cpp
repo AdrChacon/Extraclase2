@@ -1,5 +1,13 @@
 #include "Subject.h"
 #include "Observer.h"
+/*
+
+El codigo para la implementacion del patron Observer fue
+tomado de: https://www.badprog.com/c-design-pattern-observer
+
+*/
+
+
 
 int main(){
     Subject *subject = new Subject();
